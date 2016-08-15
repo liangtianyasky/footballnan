@@ -1,0 +1,15 @@
+<div class="container">
+	<mian class='main'>
+
+		
+	</mian>
+	<footer class="footer">
+		<ul>
+			<li action-type='swidth-tabs' data-tag="home" class='active_li'><i class='yo-ico'>&#xe60e;</i><b>首页</b></li>
+			<li action-type='swidth-tabs' data-tag="find"><i class='yo-ico'>&#xe630;</i><b>发现</b></li>
+			<li><i class='yo-ico'>&#xe649;</i></li>
+			<li data-tag="my" action-type='go-my'><i class='yo-ico'>&#x3575;</i><b>我的</b></li>
+			<li><i class='yo-ico'>&#xe618;</i><b>退出</b></li>
+		</ul>
+	</footer>
+</div>

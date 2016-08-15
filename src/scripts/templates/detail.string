@@ -1,0 +1,17 @@
+<header class="header">
+			<ul>
+				<li action-type='go-index'><</li>
+				<li>
+					{{title}}
+				</li>
+				<li class='yo-ico'>&#x343c;</li>
+			</ul>
+</header>
+
+<ul class='list' ms-visible="!isShowLoding">
+	<li><img  ms-src="imgsrc" alt=""/></li>
+	<li>{{description}}</li>
+</ul>
+<div class="yo-loading" ms-visible="isShowLoding">
+        <div class="inner"><i class="yo-ico"></i></div>
+</div>

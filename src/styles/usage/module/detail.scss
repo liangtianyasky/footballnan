@@ -1,0 +1,23 @@
+/*.conten-box{
+		width:100%;
+		height:100%;
+		>.go-index{
+			@include box-sizing(border-box);
+			width:100%;
+			height:.44rem;
+			background:green;
+			padding-left:.1rem;
+			line-height:.44rem;
+		}
+}*/
+.list{
+	width:100%;
+	li{
+		width:100%;
+		line-height:1.5;
+		img{
+			width:100%;
+			height:auto;
+		}
+	}
+}

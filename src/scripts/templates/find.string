@@ -1,0 +1,27 @@
+<header class="header">
+	<ul>
+		<li class='yo-ico'>&#xe605;</li>
+		<li>
+			发现
+		</li>
+	</ul>
+</header>
+<div class='ser_nav'>
+	<ul>
+		<li><input type="text" placeholder="请输入昵称"/></li>
+		<li></li>
+		<li>取消</li>
+	</ul>
+</div>
+<section>
+	<ol>
+		<li>
+			<img src="images/Pikachu.jpg" alt=""/>
+				<span>
+					<a>朴智新</a>
+					<i>朴智新韩国站需要做好准备</i>
+				</span>
+			<em></em>
+		</li>
+	</ol>
+</section>

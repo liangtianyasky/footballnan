@@ -1,0 +1,24 @@
+<!-- <div class='iscrool_box' spa-widget='scroll' data-scroll-id='livenavScroll'>
+	<ul>
+		<li>足球1</li>
+		<li>足球2</li>
+		<li>足球3</li>
+		<li>足球4</li>
+		<li>足球5</li>
+		<li>足球6</li>
+		<li>足球7</li>
+		<li>足球8</li>
+	</ul>
+</div> -->
+<div class="yo-dialog yo-dialog-a"> 
+	<header class="hd"> 
+		<h2 class="title">登录</h2> 
+	</header> <div class="bd"> 
+		<p><input type="text" placeholder="用户名"/></p>
+		<p><input type="text" placeholder="密码"/></p>
+</div> 
+	<footer class="ft"> 
+	<button action-type='go-action' class="yo-btn yo-btn-dialog yo-btn-l" >点击注册</button> 
+	<button action-type='colse' class="yo-btn yo-btn-dialog yo-btn-l">确定</button> 
+</footer> 
+</div>

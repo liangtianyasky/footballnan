@@ -1,0 +1,74 @@
+<header class="header">
+			<ul>
+				<li class='yo-ico'>&#xe605;</li>
+				<li>
+					<ol id='chose'>
+						<li class='onli' action-type='tab-li'>热点</li>
+						<li action-type='tab-li'>关注</li>
+					</ol>
+				</li>
+				<li class='yo-ico'>&#x343c;</li>
+			</ul>
+		</header>
+		<div class='h-contex'>
+		<div class="swiper-container" id="home-swiper">
+   		 <div class="swiper-wrapper">
+        	<div class="swiper-slide">
+        		<nav class="nav">
+					<ul class='list'>
+					<li class='active' action-type='li-tabs' >足球现场</li>
+					<li action-type='li-tabs'>足球生活</li>
+					<li action-type='li-tabs'>足球美女</li>
+				</ul>
+				</nav>
+        		<section class='section' id='box'>
+				<div class='scroller'>
+					<div class="swiper-container" id="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" spa-widget='scroll'  data-scroll-id="homeListScroll">
+							<div class='scroller' spa-widget='scroll'  data-scroll-id="homeListScroll">
+								<div>	
+								<div class="head">
+                            		<img src="/course-webapp/images/arrow.png"/>
+                            		<span>下拉刷新...</span>
+                        		</div>
+								<ul ms-repeat-obj="livedate">
+				 					<li action-type='goto-my' ms-attr-data-id="obj[0].id">
+				 						<img ms-src="obj[0].img" alt=""/>
+				 						<b ms-text="obj[0].title"></b>
+				 					</li>
+				 					<li></li>
+				 					<li action-type='goto-my' ms-class-hide='!obj[1]' ms-attr-data-id="obj[1].id">
+				 						<img ms-src="obj[1].img" alt=""/>
+				 						<b ms-text="obj[1].title"></b>
+				 					</li>
+				 			</ul>
+				 				<div class="foot">
+                          		  <img src="/course-webapp/images/arrow.png"/>
+                            	<span>上拉加载更多...</span>
+                        </div>
+                        </div>
+				 			</div>
+						</div>
+						<div class="swiper-slide">
+							足球现场
+						</div>
+						<div class="swiper-slide">
+							足球美女
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+        	</div>
+        <div class="swiper-slide load_box">
+        	<div class='box'>
+        		<p class='s_loadbox'></p>
+        		<p>加载中</p>
+        	</div>
+        </div>
+    	</div>
+		</div>
+
+
+	</div>	
