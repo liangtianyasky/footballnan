@@ -13,5 +13,9 @@ SPA.config({
 
 	indexView:'guide'
 })
+
 console.log("vv");
+
+
+console.log("aa");
 
