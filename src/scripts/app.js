@@ -13,5 +13,4 @@ SPA.config({
 	indexView:'guide'
 })
 
-console.log("kk");
 
