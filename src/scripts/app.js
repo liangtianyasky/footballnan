@@ -12,4 +12,4 @@ require("./view/action");
 SPA.config({
 	indexView:'index'
 })
-console.log(123);
+console.log("kk");
