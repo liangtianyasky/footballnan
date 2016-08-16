@@ -13,5 +13,5 @@ SPA.config({
 
 	indexView:'guide'
 })
-
+console.log("vv");
 
